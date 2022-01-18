@@ -37,3 +37,4 @@ expo start
 
 npm start
 ```
+- Then in metro bundler, scan the qr code with your phone
