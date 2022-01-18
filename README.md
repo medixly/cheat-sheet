@@ -23,7 +23,7 @@ Install Expo Go on your mobile device:
 Install (if you already heaven't) the code editor of your choice, I recommend [VS code](https://code.visualstudio.com/)
 
 How to start new Expo Project:
-
-```
+- Open terminal/cmd prompt and go to directory of your choice
+- ```
 expo init [insert project name here]
 ```
