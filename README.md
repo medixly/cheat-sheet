@@ -1,11 +1,17 @@
 # Ultimate Cheat Sheet
 
+if you have any questions dm me
+
 ## Table of Contents
 - [Setup](#Setup)
 - [Git](#Git)
 - [Repo Structure](#Repo-Structure)
 - [React Native](#react-native)
 - [StyleSheet](#StyleSheet)
+- [Context](#context)
+- [AsyncStorage](#async-storage)
+- [firebase](#firebase)
+- [tensorflow](#tensorflow)
 
 ## Setup
 
