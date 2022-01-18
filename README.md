@@ -13,7 +13,6 @@
 ### Installing Expo
 
 - open terminal/cmd prompt
-
 ```
 //for windows
 npm i -g expo-cli
@@ -31,7 +30,6 @@ sudo npm i -g expo-cli
 
 ### How to start new Expo Project:
 - Open terminal/cmd prompt and go to directory of your choice
-- 
 ```
 expo init [insert project name here]
 ```
@@ -45,6 +43,12 @@ npm start
 ```
 - Then in metro bundler, scan the qr code with your phone
 
+### installing dependencies
+```
+npm i [dependency name]
+```
+- can use yarn or expo install instead as well
+- after cloning the repo, make sure to run ```npm i``` in order to make sure all dependencies are installed
 
 ## Git
 
