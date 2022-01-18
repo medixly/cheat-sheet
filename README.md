@@ -4,6 +4,7 @@
 - [Setup](#Setup)
 - [Git](#Git)
 - [Repo Structure](#Repo-Structure)
+- [React Native](#react-native)
 - [StyleSheet](#StyleSheet)
 
 ## Setup
