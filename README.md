@@ -6,6 +6,7 @@ if you have any questions dm me
 - [Setup](#Setup)
 - [Git](#Git)
 - [Repo Structure](#Repo-Structure)
+- [Basic JS](#Basic-js)
 - [React Native](#react-native)
 - [StyleSheet](#StyleSheet)
 - [Navigation](#navigation)
@@ -130,6 +131,45 @@ Note: This is how I personally set up repo's and what I recommend just to stay o
 
 ### src folder
 ![1](https://user-images.githubusercontent.com/63271391/149857400-c7148dc3-7bb2-4370-8ba6-34d81619466e.png)
+
+
+## Basic-js
+
+i hope this is somewhat accurate
+
+how to print to console:
+
+```
+console.log("hello world");
+```
+
+Defining variables: 
+- use let or const, dont use var
+  - let allows the variable to be updated, const makes the variable constant
+
+in react, you have to use useState otherwise variables wont update
+you dont have to useState when variable is definied within the scope of a function however
+you have to use useEffect if you want the function to be called either on the start of the loading of the page
+
+Usage: 
+
+```
+import { useState, useEffect } from "react";
+
+export default function File() {
+  //define variables using useState, sets var to 1
+  const [var, setVar] = useState(1);
+  
+  //useEffect to call the function on start of loading page, the [] can have for instance a variable inside, and if that variable changes then the useEffect function is called again but since its empty useEffect runs immediately on start of page
+  useEffect(() => {
+    console.log(var); // should print 1
+    //setVar function increments var by 1
+    setVar(var+1);
+    console.log(var) //should print 2, however setState does not update asynchronously so it might not finish updating by the time you call console.log()
+  }, []);
+}
+```
+
 
 ## react-native
 
