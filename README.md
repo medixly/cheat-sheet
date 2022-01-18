@@ -39,3 +39,39 @@ expo start
 npm start
 ```
 - Then in metro bundler, scan the qr code with your phone
+
+
+## Git
+
+### Clone an existing repository
+
+```
+git clone [repo link]
+```
+
+### How to push changes to a repo
+
+This requires 3 steps 
+- staging changes
+- commit changes
+- push changes
+
+#### Staging changes
+
+```
+git add [filename]
+//or to stage all changes
+git add .
+```
+
+#### Commit changes (w/ message)
+
+```
+//a message would be like "worked on home screen" or "improved ui"
+git commit -m "[insert message]"
+```
+
+#### Push changes
+```
+git push
+```
