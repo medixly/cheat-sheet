@@ -149,3 +149,15 @@ Resources:
 ```
 import { StyleSheet } from "react-native";
 ```
+
+## Navigation
+- [Docs](https://reactnavigation.org/)
+- [Tab navigator](https://reactnavigation.org/docs/tab-based-navigation/)
+- [Stack Navigator](https://reactnavigation.org/docs/stack-navigator/)
+
+Note: For stack navigator, you have to install a ton of dependencies which is really annoying. run these in your cmd prompt in your project directory:
+```
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+
+
