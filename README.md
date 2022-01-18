@@ -1,7 +1,7 @@
 # Ultimate Cheat Sheet
 
 ## Table of Contents
-- [Setup](##Setup)
+- [Setup](#Setup)
 
 ## Setup
 
