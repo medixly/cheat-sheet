@@ -4,7 +4,9 @@
 
 ## Setup
 
-Install [Node](https://nodejs.org/en/)
+Install Node.js [here](https://nodejs.org/en/).
+
+How to install Expo: open terminal or command prompt
 
 ```
 //for windows
