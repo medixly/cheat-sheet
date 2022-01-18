@@ -24,6 +24,6 @@ Install (if you already heaven't) the code editor of your choice, I recommend [V
 
 How to start new Expo Project:
 - Open terminal/cmd prompt and go to directory of your choice
-- ```
+```
 expo init [insert project name here]
 ```
