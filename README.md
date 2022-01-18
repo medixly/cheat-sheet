@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Setup](#Setup)
+- [Git](#Git)
 
 ## Setup
 
