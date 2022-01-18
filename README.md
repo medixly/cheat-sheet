@@ -57,6 +57,10 @@ git clone [repo link]
 ```
 
 ### Branches
+- important for merging code
+  - merge code when two people worked on the repo at the same time, causing conflicting issues
+- you can merge branches with a pr (pull request)
+- simply create a new branch so the different code can be on separate branches, then merge w/pr
 
 ```
 //create branch
