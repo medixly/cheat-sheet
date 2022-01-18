@@ -27,3 +27,13 @@ How to start new Expo Project:
 ```
 expo init [insert project name here]
 ```
+
+How to start your project:
+- in your project directory
+```
+expo start 
+
+//or
+
+npm start
+```
