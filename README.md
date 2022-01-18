@@ -6,9 +6,13 @@
 
 ## Setup
 
-Install Node.js [here](https://nodejs.org/en/).
+### Installing Node.js
 
-How to install Expo: open terminal or command prompt
+- Install Node.js [here](https://nodejs.org/en/).
+
+### Installing Expo
+
+- open terminal/cmd prompt
 
 ```
 //for windows
@@ -18,25 +22,25 @@ npm i -g expo-cli
 sudo npm i -g expo-cli
 ```
 
-Install Expo Go on your mobile device:
+### Install Expo Go on your mobile device:
 - [App Store](https://apps.apple.com/us/app/expo-go/id982107779)
 - [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US&gl=US)
 
-Install (if you already heaven't) the code editor of your choice, I recommend [VS code](https://code.visualstudio.com/)
+### Install (if you already heaven't) the code editor of your choice
+- I recommend [VS code](https://code.visualstudio.com/)
 
-How to start new Expo Project:
+### How to start new Expo Project:
 - Open terminal/cmd prompt and go to directory of your choice
+- 
 ```
 expo init [insert project name here]
 ```
 
-How to start your project:
-- in your project directory
+### How to run your project:
+- navigate to your project directory in terminal/cmd prompt
 ```
 expo start 
-
 //or
-
 npm start
 ```
 - Then in metro bundler, scan the qr code with your phone
