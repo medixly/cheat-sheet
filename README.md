@@ -11,9 +11,6 @@ if you have any questions dm me
 - [StyleSheet](#StyleSheet)
 - [Navigation](#navigation)
 - [Context](#context)
-- [AsyncStorage](#async-storage)
-- [firebase](#firebase)
-- [tensorflow](#tensorflow)
 
 ## Setup
 
