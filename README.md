@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Setup](#Setup)
 - [Git](#Git)
+- [Repo Structure](#Repo Structure)
 - [StyleSheet](#StyleSheet)
 
 ## Setup
@@ -111,6 +112,17 @@ git push
 ```
 git pull
 ```
+
+## Repo Structure
+
+Note: This is how I personally set up repo's and what I recommend just to stay organized.
+
+### Base folder
+![unknown](https://user-images.githubusercontent.com/63271391/149857387-ca935bf0-c5f0-4ca5-be31-b746f3dfcde9.png)
+
+### src folder
+![1](https://user-images.githubusercontent.com/63271391/149857400-c7148dc3-7bb2-4370-8ba6-34d81619466e.png)
+
 
 ## StyleSheet
 - the CSS of react native
