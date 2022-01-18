@@ -44,10 +44,26 @@ npm start
 
 ## Git
 
+### Initialize project as repo (pre-initialized for Expo projects)
+
+```
+git init
+```
+
 ### Clone an existing repository
 
 ```
 git clone [repo link]
+```
+
+### Branches
+
+```
+//create branch
+git branch [branch name]
+
+// go to branch
+git checkout [branch name]
 ```
 
 ### How to push changes to a repo
