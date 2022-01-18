@@ -160,4 +160,47 @@ Note: For stack navigator, you have to install a ton of dependencies which is re
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
 
+## Context
 
+A simple way to establish global variables that can be accessed by every file in your project.
+
+In src/utils/context.js:
+
+```
+import { createContext } from "react";
+
+const Context = createContext();
+
+export default Context;
+```
+
+In App.js, make sure to wrap your entire code in the Context.Provider and import the proper components. Try to follow this code:
+
+```
+import Context from "./src/utils/context.js";
+
+export default function App() {
+  let var = 0;
+  let variable = 0;
+  
+  return (
+    <Context.Provider value={{
+      //all the variables you want to be global
+      var, variable
+    }}>
+      // THE REST OF YOUR APP
+    </Context.provider>
+  );
+}
+```
+
+Then in a file where you want access to these files, import useContext and follow this code:
+
+```
+import { useContext } from "react";
+import Context from "../utils/context.js";
+
+export default function File() {
+  let { var, variable } = useContext(Context);
+}
+```
