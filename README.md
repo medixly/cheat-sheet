@@ -8,6 +8,7 @@ if you have any questions dm me
 - [Repo Structure](#Repo-Structure)
 - [React Native](#react-native)
 - [StyleSheet](#StyleSheet)
+- [Navigation](#navigation)
 - [Context](#context)
 - [AsyncStorage](#async-storage)
 - [firebase](#firebase)
