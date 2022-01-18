@@ -60,6 +60,12 @@ npm i [dependency name]
 
 ## Git
 
+### installation
+
+Install git [here](https://git-scm.com/downloads).
+
+When pushing for the first time, you usually have to input your username and password to verify your account. However, it seems that you must add a git token instead now due to recent updates, [here](https://techglimpse.com/git-push-github-token-based-passwordless/) is an article on how to do that.
+
 ### Initialize project as repo (pre-initialized for Expo projects)
 
 ```
