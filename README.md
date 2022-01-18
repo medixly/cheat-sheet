@@ -123,6 +123,14 @@ Note: This is how I personally set up repo's and what I recommend just to stay o
 ### src folder
 ![1](https://user-images.githubusercontent.com/63271391/149857400-c7148dc3-7bb2-4370-8ba6-34d81619466e.png)
 
+## react-native
+
+Resources:
+- [Mosh Video](https://youtu.be/0-S5a0eXPoc?t=2790)
+- [React-native docs](https://reactnative.dev/docs/getting-started)
+- [Expo docs](https://docs.expo.dev/)
+- [UI Components](https://docs.expo.dev/guides/userinterface/)
+
 
 ## StyleSheet
 - the CSS of react native
