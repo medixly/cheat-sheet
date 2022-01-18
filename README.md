@@ -75,3 +75,9 @@ git commit -m "[insert message]"
 ```
 git push
 ```
+
+### Pull changes from a repo
+
+```
+git pull
+```
