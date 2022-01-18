@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Setup](#Setup)
 - [Git](#Git)
+- [StyleSheet](#StyleSheet)
 
 ## Setup
 
@@ -109,4 +110,14 @@ git push
 
 ```
 git pull
+```
+
+## StyleSheet
+- the CSS of react native
+- all StyleSheet properties can be found [here](https://github.com/vhpoet/react-native-styling-cheat-sheet)
+
+### Importing 
+
+```
+import { StyleSheet } from "react-native";
 ```
