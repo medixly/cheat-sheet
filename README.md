@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Setup](#Setup)
 - [Git](#Git)
-- [Repo Structure](#Repo Structure)
+- [Repo Structure](#Repo-Structure)
 - [StyleSheet](#StyleSheet)
 
 ## Setup
@@ -113,7 +113,7 @@ git push
 git pull
 ```
 
-## Repo Structure
+## Repo-Structure
 
 Note: This is how I personally set up repo's and what I recommend just to stay organized.
 
